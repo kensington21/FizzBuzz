@@ -2,11 +2,11 @@ package lab1;
 
 public class Reduce {
     public static void main(String[] args) {
-
+        //count method
         System.out.println(reduce());
     }
 
-     static int reduce() {
+     public static int reduce() {
         //total moves
         int total_moves = 0;
 
@@ -28,7 +28,7 @@ public class Reduce {
         return total_moves;
     }
 
-    static int reduce(int n) {
+    public static int reduce(int n) {
         //total moves
         int total_moves = 0;
 
