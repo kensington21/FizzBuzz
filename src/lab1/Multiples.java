@@ -7,7 +7,7 @@ public class Multiples {
         System.out.println(multiples());
     }
 
-    static int multiples() {
+    public static int multiples() {
         int total = 0;
 
         for (int i = 1; i < 1000; i++){
@@ -24,7 +24,7 @@ public class Multiples {
         return total;
     }
 
-    static int multiples(int n, int a, int b) {
+    public static int multiples(int n, int a, int b) {
         //total integer
         int total = 0;
 
